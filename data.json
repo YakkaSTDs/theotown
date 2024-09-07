@@ -1,0 +1,214 @@
+[
+  {
+    "command": "list",
+    "url": "data/list.html",
+    "specify": [
+      {
+        "extension": "admin",
+        "url": "data/list-admin.html"
+      }
+    ]
+  },
+  
+  {
+    "command": "imgt",
+    "url": "https://w.wallhaven.cc/full/l8/wallhaven-l8gg9l.png"
+  },
+  {
+    "command": "wfm",
+    "url": "https://webformatter.com/",
+    "specify":[
+      {
+        "extension": "json",
+        "url": "https://webformatter.com/json"
+      },
+      {
+        "extension": "html",
+        "url": "https://webformatter.com/html"
+      },
+      {
+        "extension": "css",
+        "url": "https://webformatter.com/css"
+      },
+      {
+        "extension": "js",
+        "url": "https://webformatter.com/javascript"
+      }
+    ]
+  },
+  {
+    "command": "test",
+    "url": "data/test.html"
+  },
+  
+  {
+    "command": "region",
+    "url": "data/region.html",
+    "specify":[
+      {
+        "extension": "imp",
+        "url": "data/region_imp.html"
+      },
+      {
+        "extension": "exp",
+        "url": "data/region_exp.html"
+      }
+    ]
+  },
+  {
+    "command": "city",
+    "url": "data/sc.html",
+    "specify":[
+      {
+        "extension": "imp",
+        "url": "data/sc_imp.html"
+      },
+      {
+        "extension": "exp",
+        "url": "data/sc_exp.html"
+      }
+    ]
+  },
+  {
+    "command": "ins-pl",
+    "url": "data/install.html",
+    "specify": [
+      {
+        "extension": "zip",
+        "url": "data/install_zip.html"
+      },
+      {
+        "extension": "plugin",
+        "url": "data/install_plugin.html"
+      },
+      {
+        "extension": "ttplugin",
+        "url": "data/install_ttplugin.html"
+      },
+      {
+        "extension": "mpf",
+        "url": "data/install_mpf.html"
+      }
+    ]
+  },
+  {
+    "command": "bgm-imp",
+    "url": "data/bgm.html"
+  },
+  
+  {
+    "command": "tt-forum",
+    "url": "https://forum.theotown.com/viewforum.php?f=43"
+  },
+  {
+    "command": "tt-wiki",
+    "url": "https://forum.theotown.com/viewforum.php?f=82"
+  },
+  {
+    "command": "heightmap",
+    "url": "data/heightmap.html"
+  },
+  {
+    "command": "pca",
+    "url": "https://pca.svetikas.lt/"
+  },
+  {
+    "command": "tt-pltut",
+    "url": "https://theotown.com/forum/viewtopic.php?f=41&t=2965"
+  },
+  {
+    "command": "yt-tutpa",
+    "url": "https://www.youtube.com/playlist?list=PLmac3HPrav-9UWt-ahViIZxpyQxJ2wPSH"
+  },
+  {
+    "command": "tt-dualhd",
+    "url": "data/dualhd.html"
+  },
+  
+  {
+    "command": "game",
+    "url": "data/game.html",
+    "specify":[
+      {
+        "extension":"populasi",
+        "url":"data/game_pop.html"
+      },
+      {
+        "extension":"tippm",
+        "url":"data/game_tpm.html"
+      },
+      {
+        "extension":"hirarki",
+        "url":"data/game_hkj.html"
+      },
+      {
+        "extension":"lag",
+        "url":"data/game_lag.html"
+      },
+      {
+        "extension":"dsa",
+        "url":"data/game_dsa.html"
+      },
+      {
+        "extension":"redeem",
+        "url":"data/game_rdm.html"
+      },
+      {
+        "extension":"budaya",
+        "url":"data/game_bdy.html"
+      },
+      {
+        "extension":"pelabuhan",
+        "url":"data/game_plb.html"
+      },
+      {
+        "extension":"ro-memory",
+        "url":"data/game_rom.html"
+      },
+      {
+        "extension":"apk",
+        "url":"https://github.com/TheoTown-Team/translations/releases"
+      }
+    ]
+  },
+  {
+    "command":"plugin",
+    "url":"data/pmpl.html",
+    "specify":[
+      {
+        "extension":"tdk-muncul",
+        "url":"data/pmpl_tml.html"
+      },
+      {
+        "extension":"miss-manifest",
+        "url":"data/pmpl_mmf.html"
+      },
+      {
+        "extension":"script-policy",
+        "url":"data/pmpl_scy.html"
+      }
+    ]
+  },
+  
+  {
+    "command": "aos-er",
+    "url": "data/aos_er.html"
+  },
+  {
+    "command": "cr-pl",
+    "url": "data/crpl.html"
+  },
+  
+  {
+    "command": "link-pl",
+    "url": "data/plugin.html"
+  },
+  {
+    "command": "link-wa",
+    "url": "data/whatsapp.html"
+  },
+  {
+    "command": "link-dc",
+    "url": "data/discord.html"
+  }
+]

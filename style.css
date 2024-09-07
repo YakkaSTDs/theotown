@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@font-face {
+    font-family: 'rpcm'; /* Name of the font you want to use */
+    src: url('font/zpix.ttf') format('truetype');
+}
+:root {
+  --cmdbg: #4b4b4b;
+  --cmdtxt: #f8f8ff;
+  --cmdcmd: #77dd77;
+  --cmdlnk: #ff8347;
+  --cmd404: #ff6961;
+  --cmdnfd: #fdfd96;
+  --cmdinf: #A4d8d8;
+  --cmdft:'Roboto Mono';
+  --cmdfs:12px;
+}
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: var(--cmdbg); /* Black background for terminal */
+    color: var(--cmdcmd); /* Green text color for terminal look */
+    margin: 0;
+    line-height: 1.2;
+    font-size: var(--cmdfs);
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+div {
+  margin-bottom: 0.5rem;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 0.5rem;
+}
+table {
+  border: 1px dashed var(--cmdtxt);
+  width: 100%;
+}
+hr {
+  background-color: transparent;
+  border: 1px dashed var(--cmdtxt);
+}
+img,svg,iframe {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.25rem;
+}
+#terminal {
+  font-family: var(--cmdft), monospace;
+  padding: 0.5rem;
+  max-width: 512px;
+}
+#terminal * {
+    font-family: var(--cmdft), monospace;
+}
+#welcome {
+  margin-bottom: 0.5em;
+}
+#output {
+    color: var(--cmdtxt); /* General text color for output */
+}
+.pvcmd {
+    color: var(--cmdcmd); /* Color for previous command */
+    font-size: inherit;
+}
+.error404 {
+    color: var(--cmd404); /* Color for 404 errors */
+}
+.errorcmdnf {
+    color: var(--cmdnfd); /* Color for command not found errors */
+}
+#input-line {
+  display: flex;
+  align-items: center;
+}
+#prefix {
+  margin-right: 0.5em;
+}
+#user-input {
+  background: none;
+  border: none;
+  color: inherit;
+  width: 100%;
+  font-size: inherit;
+}
+#user-input:focus {
+  outline: none;
+}
+.txtinv {
+  color: var(--cmdbg);
+  background-color: var(--cmdcmd);
+  padding: 0px;
+}
+.cd {
+  color: var(--cmdbg);
+  background-color: var(--cmdtxt);
+}
+.info {
+  color: var(--cmdinf);
+  border: 1px dashed var(--cmdinf);
+  padding: 3px;
+}
+.link {
+  color: var(--cmdlnk);
+}
+.link-list {
+  
+}
+.link-list a{
+  color: var(--cmdlnk);
+  text-decoration: none;
+}
+.link-list a:hover:active:focus {
+  text-decoration: underline;
+}
