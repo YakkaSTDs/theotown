@@ -1,2 +1,2 @@
 # yakka-theotown
-Website where you can find theotown tutorials,links,and tips.
+Yakka Theotown Hub — Hub dimana Anda akan menemukan tautan komunitas, tutorial, tautan berguna, tutorial pemula, backup data Theotown, dan tutorial plugin oleh Yakka.
