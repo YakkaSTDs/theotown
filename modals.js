@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Create a modal for each item
                     const modal = document.createElement('div');
-                    modal.className = 'modal yk-modal-blur fade';
+                    modal.className = 'modal yk-modal fade';
                     modal.id = item.id;
                     modal.tabIndex = -1;
                     modal.setAttribute('aria-labelledby', `${item.id}Label`);
@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         .then(htmlContent => {
                             modal.innerHTML = `
                                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                                    <div class="modal-content yk-modal">
-                                        <div class="modal-header px-2 yk-modal-header">
+                                    <div class="modal-content yk-modal-content">
+                                        <div class="modal-header yk-modal-header">
                                       <div class="row gx-1 w-100">
-                                        <div class="col-11"><h4 class="modal-title text-start px-1" id="${item.id}Label">${item.title}</h4></div>
                                         <div class="col-1">
-                                          <button type="button" class="btn btn-sm yk-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+                                          <button type="button" class="btn yk-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
                                         </div>
+                                        <div class="col-11"><h4 class="modal-title text-start px-1" id="${item.id}Label">${item.title}</h4></div>
                                       </div>
                                         </div>
                                         <div class="modal-body yk-modal-body">
