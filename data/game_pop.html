@@ -1,11 +1,11 @@
 <img src="data/img/pop.png" alt="" />
 
 <p><b>Ketuk kotak yang ada di gambar (ditunjukkan dengan panah).</b> Setelah itu, tampilan yang ada di gambar kedua akan muncul. Tampilan ini menunjukkan permintaan zona di kotamu:</p>
-<ul>
-  <li><b>Hijau</b> Permintaan untuk zona residensial.</li>
-  <li><b>Biru</b> Permintaan untuk zona komersial.</li>
-  <li><b>Kuning</b> Permintaan untuk zona industri (termasuk kebun dan pelabuhan).</li>
-</ul>
+<div class="container px-0">
+  <p class="tt-res mb-0"><b>Hijau</b> Permintaan untuk zona residensial.</p>
+  <p class="tt-com mb-0"><b>Biru</b> Permintaan untuk zona komersial.</p>
+  <p class="tt-ind"><b>Kuning</b> Permintaan untuk zona industri (termasuk kebun dan pelabuhan).</p>
+</div>
 <p>
   Jika salah satu dari baris tersebut lebih tinggi dari garis tengah, sebaiknya bangun lebih banyak bangunan atau tambahkan zona tersebut. Jika berada di bawah garis tengah, berarti ada penurunan permintaan pada jenis zona tersebut, dan anda perlu memenuhi beberapa kebutuhan untuk mengembalikan permintaan, jika diinginkan. Hal ini bisa berupa penyediaan tempat kerja, lebih banyak tempat tinggal, atau taman.
 </p>
@@ -14,20 +14,32 @@
   <br /><br />
   Selain permintaan untuk listrik, air, dan polisi, bangunan zona memiliki permintaan yang berbeda sesuai tingkatannya:
 </p>
-<b>Zona Residensial:</b>
-<ul>
-  <li><b>T:</b> Kesehatan</li>
-  <li><b>TT:</b> Kesehatan, Taman, dan Edukasi Rendah.</li>
-  <li><b>TTT:</b> Kesehatan, Taman, Olahraga, Edukasi Rendah, dan Edukasi Tinggi.</li>
-</ul>
-<b>Zona Komersial:</b>
-<ul>
-  <li><b>T:</b> Tidak ada.</li>
-  <li><b>TT:</b> Taman.</li>
-  <li><b>TTT:</b> Taman dan Olahraga.</li>
-</ul>
-<b>Zona Industri</b>
-<ul>
-  <li><b>T & TT:</b> Tidak ada.</li>
-  <li><b>TTT:</b> Taman.</li>
-</ul>
+<div class="container mb-1 yk-catg">
+  <p class="yk-catg-title">Zona Residensial</p>
+  <p class="yk-catg-link">
+    <ul>
+      <li><b>T:</b> Kesehatan</li>
+      <li><b>TT:</b> Kesehatan, Taman, dan Edukasi Rendah.</li>
+      <li><b>TTT:</b> Kesehatan, Taman, Olahraga, Edukasi Rendah, dan Edukasi Tinggi.</li>
+    </ul>
+  </p>
+</div>
+<div class="container mb-1 yk-catb">
+  <p class="yk-catb-title">Zona Komersial</p>
+  <p class="yk-catb-link">
+    <ul>
+      <li><b>T:</b> Tidak ada.</li>
+      <li><b>TT:</b> Taman.</li>
+      <li><b>TTT:</b> Taman dan Olahraga.</li>
+    </ul>
+  </p>
+</div>
+<div class="container yk-caty">
+  <p class="yk-caty-title">Zona Industrial</p>
+  <p class="yk-caty-link">
+    <ul>
+      <li><b>T & TT:</b> Tidak ada.</li>
+      <li><b>TTT:</b> Taman.</li>
+    </ul>
+  </p>
+</div>
