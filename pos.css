@@ -1,0 +1,123 @@
+/* Sticky Top Positions */
+.yk-st-ts {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.yk-st-tc {
+    position: sticky;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yk-st-te {
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+/* Sticky Center Positions */
+.yk-st-cs {
+    position: sticky;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.yk-st-c {
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yk-st-ce {
+    position: sticky;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* Sticky Bottom Positions */
+.yk-st-bs {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+}
+
+.yk-st-bc {
+    position: sticky;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yk-st-be {
+    position: sticky;
+    bottom: 0;
+    right: 0;
+}
+
+/* Regular (Non-sticky) Top Positions */
+.yk-pos-ts {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.yk-pos-tc {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yk-pos-te {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Regular (Non-sticky) Center Positions */
+.yk-pos-cs {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.yk-pos-c {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yk-pos-ce {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* Regular (Non-sticky) Bottom Positions */
+.yk-pos-bs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.yk-pos-bc {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yk-pos-be {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

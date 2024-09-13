@@ -1,214 +1,235 @@
 [
   {
-    "command": "list",
-    "url": "data/list.html",
-    "specify": [
-      {
-        "extension": "admin",
-        "url": "data/list-admin.html"
-      }
-    ]
+    "id": "WhatsappLink",
+    "title": "Link Whatsapp",
+    "btn title": "Whatsapp",
+    "btn container id":"link",
+    "content": "data/whatsapp.html"
+  },
+  {
+    "id": "DiscordLink",
+    "title": "Link Discord",
+    "btn title": "Discord",
+    "btn container id":"link",
+    "content": "data/discord.html"
+  },
+  {
+    "id": "PluginLink",
+    "title": "Link Plugin",
+    "btn title": "Plugin",
+    "btn container id":"link",
+    "content": "data/plugin.html"
   },
   
   {
-    "command": "imgt",
-    "url": "https://w.wallhaven.cc/full/l8/wallhaven-l8gg9l.png"
-  },
-  {
-    "command": "wfm",
-    "url": "https://webformatter.com/",
-    "specify":[
-      {
-        "extension": "json",
-        "url": "https://webformatter.com/json"
-      },
-      {
-        "extension": "html",
-        "url": "https://webformatter.com/html"
-      },
-      {
-        "extension": "css",
-        "url": "https://webformatter.com/css"
-      },
-      {
-        "extension": "js",
-        "url": "https://webformatter.com/javascript"
-      }
-    ]
-  },
-  {
-    "command": "test",
-    "url": "data/test.html"
+    "id": "aoserror",
+    "title": "Alasan Age of Sail Error",
+    "btn title": "Error",
+    "btn container id":"aos",
+    "content": "data/aos_er.html"
   },
   
   {
-    "command": "region",
-    "url": "data/region.html",
-    "specify":[
-      {
-        "extension": "imp",
-        "url": "data/region_imp.html"
-      },
-      {
-        "extension": "exp",
-        "url": "data/region_exp.html"
-      }
-    ]
+    "id": "insplzip",
+    "title": "Install Plugin Zip",
+    "btn title": "Zip",
+    "btn container id":"inspl",
+    "content": "data/install_zip.html"
   },
   {
-    "command": "city",
-    "url": "data/sc.html",
-    "specify":[
-      {
-        "extension": "imp",
-        "url": "data/sc_imp.html"
-      },
-      {
-        "extension": "exp",
-        "url": "data/sc_exp.html"
-      }
-    ]
+    "id": "insplplugin",
+    "title": "Install Plugin Plugin",
+    "btn title": "Plugin",
+    "btn container id":"inspl",
+    "content": "data/install_plugin.html"
   },
   {
-    "command": "ins-pl",
-    "url": "data/install.html",
-    "specify": [
-      {
-        "extension": "zip",
-        "url": "data/install_zip.html"
-      },
-      {
-        "extension": "plugin",
-        "url": "data/install_plugin.html"
-      },
-      {
-        "extension": "ttplugin",
-        "url": "data/install_ttplugin.html"
-      },
-      {
-        "extension": "mpf",
-        "url": "data/install_mpf.html"
-      }
-    ]
+    "id": "insplttplugin",
+    "title": "Install Plugin TTplugin",
+    "btn title": "TTplugin",
+    "btn container id":"inspl",
+    "content": "data/install_ttplugin.html"
   },
   {
-    "command": "bgm-imp",
-    "url": "data/bgm.html"
+    "id": "insplmpf",
+    "title": "Install Plugin mpf",
+    "btn title": "MPF",
+    "btn container id":"inspl",
+    "content": "data/install_mpf.html"
+  },
+  {
+    "id": "inspltdkmnc",
+    "title": "Alasan Tidak Muncul",
+    "btn title": "Tidak Muncul",
+    "btn container id":"inspl",
+    "content": "data/pmpl_tml.html"
+  },
+  {
+    "id": "insplmsgmnf",
+    "title": "Penjelasan Missing Manifest",
+    "btn title": "Missing Manifest",
+    "btn container id":"inspl",
+    "content": "data/pmpl_mmf.html"
+  },
+  {
+    "id": "insplscrplc",
+    "title": "Penjelasan Script Policy",
+    "btn title": "Script Policy",
+    "btn container id":"inspl",
+    "content": "data/pmpl_scy.html"
   },
   
   {
-    "command": "tt-forum",
-    "url": "https://forum.theotown.com/viewforum.php?f=43"
+    "id": "regimp",
+    "title": "Impor Wilayah",
+    "btn title": "Impor",
+    "btn container id":"reg",
+    "content": "data/region_imp.html"
   },
   {
-    "command": "tt-wiki",
-    "url": "https://forum.theotown.com/viewforum.php?f=82"
-  },
-  {
-    "command": "heightmap",
-    "url": "data/heightmap.html"
-  },
-  {
-    "command": "pca",
-    "url": "https://pca.svetikas.lt/"
-  },
-  {
-    "command": "tt-pltut",
-    "url": "https://theotown.com/forum/viewtopic.php?f=41&t=2965"
-  },
-  {
-    "command": "yt-tutpa",
-    "url": "https://www.youtube.com/playlist?list=PLmac3HPrav-9UWt-ahViIZxpyQxJ2wPSH"
-  },
-  {
-    "command": "tt-dualhd",
-    "url": "data/dualhd.html"
+    "id": "regexp",
+    "title": "Ekspor Wilayah",
+    "btn title": "Ekspor",
+    "btn container id":"reg",
+    "content": "data/region_exp.html"
   },
   
   {
-    "command": "game",
-    "url": "data/game.html",
-    "specify":[
-      {
-        "extension":"populasi",
-        "url":"data/game_pop.html"
-      },
-      {
-        "extension":"tippm",
-        "url":"data/game_tpm.html"
-      },
-      {
-        "extension":"hirarki",
-        "url":"data/game_hkj.html"
-      },
-      {
-        "extension":"lag",
-        "url":"data/game_lag.html"
-      },
-      {
-        "extension":"dsa",
-        "url":"data/game_dsa.html"
-      },
-      {
-        "extension":"redeem",
-        "url":"data/game_rdm.html"
-      },
-      {
-        "extension":"budaya",
-        "url":"data/game_bdy.html"
-      },
-      {
-        "extension":"pelabuhan",
-        "url":"data/game_plb.html"
-      },
-      {
-        "extension":"ro-memory",
-        "url":"data/game_rom.html"
-      },
-      {
-        "extension":"apk",
-        "url":"https://github.com/TheoTown-Team/translations/releases"
-      }
-    ]
+    "id": "sciimp",
+    "title": "Impor Kota Satuan",
+    "btn title": "Impor",
+    "btn container id":"sci",
+    "content": "data/sc_imp.html"
   },
   {
-    "command":"plugin",
-    "url":"data/pmpl.html",
-    "specify":[
-      {
-        "extension":"tdk-muncul",
-        "url":"data/pmpl_tml.html"
-      },
-      {
-        "extension":"miss-manifest",
-        "url":"data/pmpl_mmf.html"
-      },
-      {
-        "extension":"script-policy",
-        "url":"data/pmpl_scy.html"
-      }
-    ]
+    "id": "sciexp",
+    "title": "Ekspor Kota Satuan",
+    "btn title": "Ekspor",
+    "btn container id":"sci",
+    "content": "data/sc_exp.html"
   },
   
   {
-    "command": "aos-er",
-    "url": "data/aos_er.html"
-  },
-  {
-    "command": "cr-pl",
-    "url": "data/crpl.html"
+    "id": "bgmimp",
+    "title": "Impor BGM",
+    "btn title": "Impor",
+    "btn container id":"bgm",
+    "content": "data/bgm.html"
   },
   
   {
-    "command": "link-pl",
-    "url": "data/plugin.html"
+    "id": "gmdlhd",
+    "title": "Rekomendasi Plugin (By DualHD)",
+    "btn title": "Rekomendasi Plugin",
+    "btn container id":"game",
+    "content": "data/dualhd.html"
   },
   {
-    "command": "link-wa",
-    "url": "data/whatsapp.html"
+    "id": "gmpop",
+    "title": "Alasan Populasi Tidak Naik",
+    "btn title": "Populasi Tidak Naik",
+    "btn container id":"game",
+    "content": "data/game_pop.html"
   },
   {
-    "command": "link-dc",
-    "url": "data/discord.html"
+    "id": "gmtpm",
+    "title": "Tips Pemula (By Yakka)",
+    "btn title": "Tips Pemula",
+    "btn container id":"game",
+    "content": "data/game_tpm.html"
+  },
+  {
+    "id": "gmhkj",
+    "title": "Hirarki Jalan",
+    "btn title": "Hirarki Jalan",
+    "btn container id":"game",
+    "content": "data/game_hkj.html"
+  },
+  {
+    "id": "gmlag",
+    "title": "Hirarki Jalan",
+    "btn title": "Game Lag",
+    "btn container id":"game",
+    "content": "data/game_lag.html"
+  },
+  {
+    "id": "gmldsa",
+    "title": "DSA",
+    "btn title": "DSA",
+    "btn container id":"game",
+    "content": "data/game_dsa.html"
+  },
+  {
+    "id": "gmlrdm",
+    "title": "Cara Redeem Kode",
+    "btn title": "Redeem Kode",
+    "btn container id":"game",
+    "content": "data/game_rdm.html"
+  },
+  {
+    "id": "gmlbdy",
+    "title": "Budaya",
+    "btn title": "Budaya",
+    "btn container id":"game",
+    "content": "data/game_bdy.html"
+  },
+  {
+    "id": "gmlplb",
+    "title": "Cara Membuat Pelabuhan",
+    "btn title": "Pelabuhan",
+    "btn container id":"game",
+    "content": "data/game_plb.html"
+  },
+  {
+    "id":"gmapk",
+    "btn title":"APK",
+    "btn container id":"game",
+    "url":"https://github.com/TheoTown-Team/translations/releases"
+  },
+  
+  {
+    "id": "errgmrom",
+    "title": "Error: Run Out of Memory",
+    "btn title": "Run out of Memory",
+    "btn container id":"errgm",
+    "content": "data/game_rom.html"
+  },
+  
+  {
+    "id":"miscfg",
+    "btn title":"Plugin Forum",
+    "btn container id":"misc",
+    "url":"https://forum.theotown.com/viewforum.php?f=43"
+  },
+  {
+    "id":"miscwk",
+    "btn title":"Forum Wiki",
+    "btn container id":"misc",
+    "url":"https://forum.theotown.com/viewforum.php?f=82"
+  },
+  {
+    "id": "miscmap",
+    "title": "Heightmap",
+    "btn title": "Heightmap",
+    "btn container id":"misc",
+    "content": "data/heightmap.html"
+  },
+  {
+    "id":"miscpca",
+    "btn title":"PCA",
+    "btn container id":"misc",
+    "url":"https://pca.svetikas.lt/"
+  },
+  {
+    "id":"miscftpl",
+    "btn title":"Tutorial Plugin Forum",
+    "btn container id":"misc",
+    "url":"https://theotown.com/forum/viewtopic.php?f=41&t=2965"
+  },
+  {
+    "id":"misctpyt",
+    "btn title":"Tutorial Menggambar Plugin",
+    "btn container id":"misc",
+    "url":"https://www.youtube.com/playlist?list=PLmac3HPrav-9UWt-ahViIZxpyQxJ2wPSH"
   }
 ]

@@ -1,0 +1,277 @@
+:root {
+  --cmdftcl: rgb(42, 41, 43); /* bl 1 #2a292b */
+  --cmdcmd: rgb(119, 221, 119);    /* #77dd77 */
+  --cmdlnk: rgb(255, 131, 71);     /* #ff8347 */
+  --cmd404: rgb(255, 105, 97);     /* #ff6961 */
+  --cmdnfd: rgb(253, 253, 150);    /* #fdfd96 */
+  --cmdinf: rgb(164, 216, 216);    /* #A4d8d8 */
+  --cmdpu: rgb(186, 146, 214);  /* Pastel pu */
+  --cmdl: rgb(204, 255, 153);    /* Pastel l */
+  --cmdma: rgb(255, 153, 204); /* Pastel ma */
+  --cmdpi: rgb(255, 182, 193);    /* Pastel pi */
+  --cmdwh: rgb(255, 255, 255);   /* wh */
+  --cmdbl: rgb(0, 0, 0);         /* bl */
+  --cmdg: rgb(192, 192, 192);    /* gr */
+  --cmddg: rgb(105, 105, 105);   /* Dark gr */
+  --cmdcmda: rgba(119, 221, 119,0.25);    /* #77dd77 */
+  --cmdlnka: rgba(255, 131, 71,0.25);     /* #ff8347 */
+  --cmd404a: rgba(255, 105, 97,0.25);     /* #ff6961 */
+  --cmdnfda: rgba(253, 253, 150,0.25);    /* #fdfd96 */
+  --cmdinfa: rgba(164, 216, 216,0.25);    /* #A4d8d8 */
+  --cmdpua: rgba(186, 146, 214, 0.25);  /* Pastel pu (transparent) */
+  --cmdla: rgba(204, 255, 153, 0.25);    /* Pastel l (transparent) */
+  --cmdmaa: rgba(255, 153, 204, 0.25); /* Pastel ma (transparent) */
+  --cmdpia: rgba(255, 182, 193, 0.25);    /* Pastel pi (transparent) */
+  --cmdwha: rgba(255, 255, 255, 0.25);   /* wh (transparent) */
+  --cmdbla: rgba(0, 0, 0, 0.25);         /* bl (transparent) */
+  --cmdga: rgba(192, 192, 192, 0.25);    /* gr (transparent) */
+  --cmddga: rgba(105, 105, 105, 0.25);   /* Dark gr (transparent) */
+}
+.tt-res {
+  background-color: var(--cmdcmd);
+  color: var(--cmddg);
+  font-size: 0.8em;
+  padding: 0.2em;
+}
+.tt-com {
+  background-color: var(--cmdinf);
+  color: var(--cmddg);
+  font-size: 0.8em;
+  padding: 0.2em;
+}
+.tt-ind {
+  background-color: var(--cmdnfd);
+  color: var(--cmddg);
+  font-size: 0.8em;
+  padding: 0.2em;
+}
+
+.yk-catb {
+  border: 1px solid var(--cmdinf);
+  background-color: var(--cmdinfa);
+  color: var(--cmdinf);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catb-title {
+  background-color: var(--cmdinf);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catb-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+.yk-cato {
+  border: 1px solid var(--cmdlnk);
+  background-color: var(--cmdlnka);
+  color: var(--cmdlnk);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-cato-title {
+  background-color: var(--cmdlnk);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-cato-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+.yk-catg {
+  border: 1px solid var(--cmdcmd);
+  background-color: var(--cmdcmda);
+  color: var(--cmdcmd);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catg-title {
+  background-color: var(--cmdcmd);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catg-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+.yk-caty {
+  border: 1px solid var(--cmdnfd);
+  background-color: var(--cmdnfda);
+  color: var(--cmdnfd);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-caty-title {
+  background-color: var(--cmdnfd);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-caty-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+.yk-catr {
+  border: 1px solid var(--cmd404);
+  background-color: var(--cmd404a);
+  color: var(--cmd404);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catr-title {
+  background-color: var(--cmd404);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catr-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+
+.yk-catpu {
+  border: 1px solid var(--cmdpu);
+  background-color: var(--cmdpua);
+  color: var(--cmdpu);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catpu-title {
+  background-color: var(--cmdpu);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catpu-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+
+.yk-catl {
+  border: 1px solid var(--cmdl);
+  background-color: var(--cmdla);
+  color: var(--cmdl);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catl-title {
+  background-color: var(--cmdl);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catl-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+
+.yk-catma {
+  border: 1px solid var(--cmdma);
+  background-color: var(--cmdmaa);
+  color: var(--cmdma);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catma-title {
+  background-color: var(--cmdma);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catma-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+
+.yk-catpi {
+  border: 1px solid var(--cmdpi);
+  background-color: var(--cmdpia);
+  color: var(--cmdpi);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catpi-title {
+  background-color: var(--cmdpi);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catpi-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+
+.yk-catwh {
+  border: 1px solid var(--cmdwh);
+  background-color: var(--cmdwha);
+  color: var(--cmdwh);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catwh-title {
+  background-color: var(--cmdwh);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catwh-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+
+.yk-catbl {
+  border: 1px solid var(--cmdbl);
+  background-color: var(--cmdbla);
+  color: var(--cmdbl);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catbl-title {
+  background-color: var(--cmdbl);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catbl-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+
+.yk-catgr {
+  border: 1px solid var(--cmdg);
+  background-color: var(--cmdga);
+  color: var(--cmdg);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catgr-title {
+  background-color: var(--cmdg);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catgr-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
+
+.yk-catdg {
+  border: 1px solid var(--cmddg);
+  background-color: var(--cmddga);
+  color: var(--cmddg);
+  padding: 0rem;
+  height: 100%;
+}
+.yk-catdg-title {
+  background-color: var(--cmddg);
+  color: var(--cmdftcl);
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.yk-catdg-link {
+  padding: 0.25rem 0.5rem;
+  margin: 0rem;
+}
