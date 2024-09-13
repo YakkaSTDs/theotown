@@ -25,7 +25,7 @@
   --cmdwha: rgba(255, 255, 255, 0.25);   /* wh (transparent) */
   --cmdbla: rgba(0, 0, 0, 0.25);         /* bl (transparent) */
   --cmdga: rgba(192, 192, 192, 0.25);    /* gr (transparent) */
-  --cmddga: rgba(105, 105, 105, 0.25);   /* Dark gr (transparent) */
+  --cmddga: rgba(105, 105, 105, 0.25);   /* Dark gr (transparent) .*/ 
 }
 .tt-res {
   background-color: var(--cmdcmd);
