@@ -1,169 +1,205 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/* Font-face declarations */
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('fonts/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoEmoji';
+    src: url('fonts/NotoEmoji-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-/* Generated pallete from: https://coolors.co/f7f7ff-4d8b31-dde8b9-181617-ff8427 */
+/* Root variables */
 :root {
-  --YKCL-01: rgb(247,247,255); /* White #f7f7ff */
-  --YKCL-02: rgb(77,139,49); /*Dark Green #4d8b31 */
-  --YKCL-03: rgb(54,97,34); /*Light Green #366122 */
-  --YKCL-04: rgb(42,41,43); /* Black 1 #2a292b */
-  --YKCL-05: rgb(29,29,30); /*Black 2 #1d1d1e */
-  --YKCL-06: rgb(255,132,39); /* Digital Fox orange #ff8427 */
-  --FTFCP:"Bebas Neue",Sans-serif;
-  --FTFCS:"Roboto Condensed",Sans-serif;
-  --FTFCM:"Roboto Mono",Monospace;
+    --YKCL-TXTP: #e0e0e0;
+    --YKCL-TXTS: #b0b0b0;
+    --YKCL-BGP: #121212;
+    --YKCL-BGS: #1e1e1e;
+    --YKCL-CLAP: #4d8b31;
+    --YKCL-CLAS: #ff8427;
 }
 
+/* Base styling */
 body {
-  font-family: var(--FTFCS);
-  min-height: 100vh;
+    font-family: 'Inter', 'NotoEmoji', Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0.25em 0.5em;
+    color: var(--YKCL-TXTS);
+    background-color: var(--YKCL-BGP);
+    max-width: 100%;
 }
-h1,h2,h3,h4,h5,h6 {
-  font-family: var(--FTFCP);
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.25em 0.1em;
+    color: var(--YKCL-TXTP);
+    font-family: 'Montserrat', Display, sans-serif;
 }
-pre,code {
-  font-family: var(--FTFCM);
+h1, h2 {
+    border-bottom: 1px solid var(--YKCL-TXTS);
 }
-img,svg,video {
-  max-width: 100%;
-  overflow-x: scroll;
+p {
+    margin: 0.5em 0;
 }
+mark {
+    background: var(--YKCL-CLAP);
+    color: var(--YKCL-BGS);
+}
+
+/* Link styling */
+a {
+    color: var(--YKCL-CLAP);
+}
+a:visited {
+    color: var(--YKCL-CLAS);
+}
+a:hover, a:active {
+    color: var(--YKCL-CLAS);
+}
+a:disabled {
+    color: var(--YKCL-CLAS);
+    text-decoration: none;
+}
+
+/* Special link prefixes */
+.back-to-home::before {
+    content: '\00AB'; /* Double dash back */
+    margin-right: 0.5em;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+.external-link::after {
+    content: '\2197'; /* Arrow top-right */
+    margin-left: 0.5em;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+/* Blockquote styling */
+blockquote {
+    margin: 0.25em 0.5em;
+    padding: 0.25em 0.5em;
+    border-left: 5px solid var(--YKCL-CLAP);
+    background-color: var(--YKCL-BGS);
+}
+blockquote.info {
+    border-left-color: #0077cc;
+}
+blockquote.info::before {
+    content: '\2139'; /* Info circle */
+    color: #0077cc;
+    margin-right: 0.5em;
+}
+blockquote.warning {
+    border-left-color: #ffcc00;
+}
+blockquote.warning::before {
+    content: '\26A0'; /* Warning triangle */
+    color: #ffcc00;
+    margin-right: 0.5em;
+}
+
+/* List styling */
+ul, ol {
+    margin: 0.25em 0.5em;
+    padding: 0.25em 0.5em;
+}
+
+/* Inline code styling */
+code {
+    font-family: 'RobotoMono', monospace;
+    background: var(--YKCL-BGS);
+    padding: 0.1em 0.25em;
+    font-size: 0.8em;
+    word-break: break-word;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* Preformatted block styling */
+pre {
+    background: var(--YKCL-BGS);
+    padding: 0.5em;
+    overflow-x: auto;
+}
+
+/* Horizontal rule */
 hr {
-  border: 1px solid var(--YKCL-01);
+    border: 0;
+    border-top: 1px solid var(--YKCL-TXTP);
+    margin: 1em 0;
 }
 
-/* Classes */
+/* Table styling */
+table {
+    border-collapse: collapse;
+    margin: 0.25em 0;
+    width: 100%;
+}
+table th, table td {
+    border: 1px solid var(--YKCL-TXTP);
+    padding: 0.25em;
+    text-align: left;
+}
+th {
+    color: var(--YKCL-TXTP);
+    background-color: var(--YKCL-BGS);
+}
 
-.yk-body {
-  background-color: var(--YKCL-04);
-  color: var(--YKCL-01);
-  padding-top: 3.5em;
-  padding-bottom: 3.5em;
-  background-image: url('img/BG_WEB_MOB.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+/* Image responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
 }
-.yk-file {
-  font-size: 0.8em;
-  background-color: var(--YKCL-02);
-  color: var(--YKCL-01);
-  padding: 0.2em;
-  font-family: var(--FTFCM);
-  margin-right: 0.25em;
+
+/* Highlight unfinished text */
+.not-finished {
+    padding: 0 !important;
+    color: #cc2200 !important;
 }
-.yk-dir {
-  font-size: 0.8em;
-  background-color: var(--YKCL-06);
-  color: var(--YKCL-01);
-  padding: 0.2em;
-  font-family: var(--FTFCM);
-  word-wrap: break-word;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
+
+/* Responsive design */
+@media (min-width: 768px) {
+    body {
+        max-width: 90vw;
+        padding: 0 10vw;
+    }
 }
-.mr-1 {
-  margin-right: 0.25em;
-}
-.yk-nav {
-  background-color: var(--YKCL-02);
-  color: var(--YKCL-01) !important;
-  font-family: var(--FTFCP);
-  max-width: 100vw;
-  height: 3em;
-}
-.yk-nav .yk-navb {
-  color: var(--YKCL-01) !important;
-}
-.yk-nav .yk-logo {
-  height: 1em;
-  margin-right: 0.25em;
-}
-.yk-footer {
-  background-color: var(--YKCL-03);
-  height: 3.25em !important;
-  font-family: var(--FTFCP);
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
-.yk-footer .ykfooterb {
-  color: var(--YKCL-01);
-}
-.yk-card {
-  background-color: var(--YKCL-05);
-  color: var(--YKCL-01);
-  border-radius: 0px;
-  border: none;
-  margin-bottom: 0.25rem;
-}
-.yk-card-header {
-  background-color: var(--YKCL-04);
-  border-radius: 0px !important;
-  border-bottom: 1px solid var(--YKCL-04);
-  padding: 0.25rem 0.5rem;
-}
-.yk-card-body {
-  border-radius: 0px !important;
-  padding: 0.25rem 0.5rem;
-}
-.yk-card-footer {
-  background-color: var(--YKCL-04);
-  border-radius: 0px !important;
-  border-top: 1px solid var(--YKCL-04);
-  padding: 0.25rem 0.5rem;
-}
-.yk-modal {
-  backdrop-filter: blur(0.5em);
-}
-.yk-close {
-  background-color: rgb(255,105,97); /* Red background color */
-  color: var(--YKCL-05); /* Custom text color */
-  border-radius: 100%; /* Make the button circular */
-  height: 1.5em;
-  width: 1.5em;
-  font-size: 1em;
-  text-align: center;
-  padding: 0px;
-  border: none; /* No border */
-  cursor: pointer; /* Pointer cursor for interactivity */
-  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
-}
-.yk-close:hover {
-  background-color: rgb(255,85,80); /* Darken the red background slightly */
-  color: var(--YKCL-01); /* Adjust text color on hover */
-}
-/* Active (clicked) and focus state */
-.yk-close:active, 
-.yk-close:focus {
-  background-color: rgb(255,55,50); /* Darker red when clicked */
-  color: var(--YKCL-01); /* Adjust color on focus/active */
-  outline: none; /* Remove focus outline */
-  box-shadow: none; /* Remove any box shadow */
-}
-.yk-modal-content {
-  background-color: var(--YKCL-05);
-  border-radius: 0px;
-}
-.yk-modal-header {
-  background-color: var(--YKCL-04);
-  border-bottom: none;
-  border-radius: 0px;
-}
-.yk-modal-body {
-  background-color: var(--YKCL-05);
-}
-.yk-modal-footer {
-  background-color: var(--YKCL-04);
-  border-top: none;
-  border-radius: 0px;
-}
-@media (min-width:990px) {
-  .yk-body {
-    background-image: url('img/BG_WEB_DESK.jpg');
-  }
+
+@media (min-width: 1024px) {
+    body {
+        max-width: 85vw;
+        padding: 0 15vw;
+    }
 }
